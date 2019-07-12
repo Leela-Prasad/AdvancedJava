@@ -1,0 +1,8 @@
+
+Nsquid:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿHNRBLOCKERZBUG
+ksquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€HQRMAJORZBUG
+Wsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHRRMINORZVULNERABILITY
+bsquid:S1135"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHORINFOZ
+CODE_SMELL
+Fsquid:S1220""Move this file to a named package.HPRMINORZ
+CODE_SMELL

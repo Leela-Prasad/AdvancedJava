@@ -1,0 +1,10 @@
+
+lsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(фа╣АHФRMAJORZBUG
+Xsquid:S1148"#Use a logger to log this exception.(А╔╘Е¤    HЦRMINORZVULNERABILITY
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(╪Ц°УHШRMAJORZ
+CODE_SMELL
+csquid:S1135"2Complete the task associated to this TODO comment.(╒╠Ро■    HЩRINFOZ
+CODE_SMELL
+Gsquid:S1220""Move this file to a named package.HЫRMINORZ
+CODE_SMELL

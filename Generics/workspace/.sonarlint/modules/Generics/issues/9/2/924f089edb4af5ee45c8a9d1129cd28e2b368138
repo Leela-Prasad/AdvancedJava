@@ -1,0 +1,18 @@
+
+p
+squid:S106"9Replace this use of System.out or System.err by a logger.(±õå·ÿÿÿÿÿ8ËíÜÍ½-H
+RMAJORZ
+CODE_SMELL
+|squid:S1192"FDefine a constant instead of duplicating this literal "Hello" 4 times.(ñ‹ü©8„ÜíÍ½-HRCRITICALZ
+CODE_SMELL
+k
+squid:S106"9Replace this use of System.out or System.err by a logger.(º˜…Ù8œÜôÍ½-HRMAJORZ
+CODE_SMELL
+Fsquid:S1220""Move this file to a named package.H	RMINORZ
+CODE_SMELL
+p
+squid:S106"9Replace this use of System.out or System.err by a logger.(î®¤žýÿÿÿÿ8ùÚîÍ½-HRMAJORZ
+CODE_SMELL
+p
+squid:S106	"9Replace this use of System.out or System.err by a logger.(¯£¦µûÿÿÿÿ8±®èÍ½-HRMAJORZ
+CODE_SMELL

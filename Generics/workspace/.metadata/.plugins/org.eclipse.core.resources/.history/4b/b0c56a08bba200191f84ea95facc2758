@@ -1,0 +1,9 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		StringWorker<String,String> sw = new StringWorker<>("Hello" , "World");
+		System.out.println(sw.toString());
+	}
+
+}

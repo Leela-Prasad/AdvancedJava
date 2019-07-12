@@ -1,0 +1,7 @@
+
+Fsquid:S1220""Move this file to a named package.HRMINORZ
+CODE_SMELL
+™"squid:ClassVariableVisibilityCheck"NMake o1 a static final constant or non-public and provide accessors if needed.(êİ»¹ûÿÿÿÿHRMINORZVULNERABILITY
+”"squid:ClassVariableVisibilityCheck"NMake o2 a static final constant or non-public and provide accessors if needed.(€•ÃHRMINORZVULNERABILITY
+Œsquid:S1192"QDefine a constant instead of duplicating this literal "String Worker : " 3 times.(®µ…Óúÿÿÿÿ8’€ôÍ½-HRCRITICALZ
+CODE_SMELL

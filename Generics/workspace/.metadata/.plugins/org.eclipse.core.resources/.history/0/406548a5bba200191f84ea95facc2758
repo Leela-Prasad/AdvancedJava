@@ -1,0 +1,17 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		StringWorker<String,String> sw = new StringWorker<>("Hello" , "World");
+		System.out.println(sw.toString());
+		
+		StringWorker<String,Integer> sw2 = new StringWorker<>("Hello" , 123);
+		System.out.println(sw2.toString());
+		
+		System.out.println(StringWorker.toString2("Hello", 123));
+		
+		System.out.println(StringWorker.toString3("Hello", 123));
+
+	}
+
+}

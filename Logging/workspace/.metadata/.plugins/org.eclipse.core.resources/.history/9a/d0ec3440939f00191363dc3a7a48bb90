@@ -1,0 +1,4 @@
+2019-07-06 07:36:37,690 INFO LoggingExample [main] This is Info Message 
+2019-07-06 07:36:37,698 WARN LoggingExample [main] This is Warn Message 
+2019-07-06 07:36:37,698 ERROR LoggingExample [main] This is Error Message 
+2019-07-06 07:36:37,699 FATAL LoggingExample [main] This is Fatal Message 

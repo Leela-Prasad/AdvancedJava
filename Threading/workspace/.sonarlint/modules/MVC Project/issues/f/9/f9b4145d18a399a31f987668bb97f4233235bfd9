@@ -1,0 +1,269 @@
+
+~squid:S1192¨"MDefine a constant instead of duplicating this literal "Alice Walker" 3 times.(Š‚îHõRCRITICALZ
+CODE_SMELL
+ƒsquid:S1192"NDefine a constant instead of duplicating this literal "Peter Ackroyd" 3 times.(»÷šıÿÿÿÿHRCRITICALZ
+CODE_SMELL
+}squid:S1192"LDefine a constant instead of duplicating this literal "James Joyce" 3 times.(ÆñîùH¦RCRITICALZ
+CODE_SMELL
+~squid:S1192Œ"MDefine a constant instead of duplicating this literal "Andrï¿½ Gide" 4 times.(ñ´€‘HåRCRITICALZ
+CODE_SMELL
+ˆsquid:S1192İ"WDefine a constant instead of duplicating this literal "Robert Louis Stevenson" 4 times.(¬½İ×HğRCRITICALZ
+CODE_SMELL
+{squid:S1192O"KDefine a constant instead of duplicating this literal "Iain Banks" 4 times.(şô™ÖH­RCRITICALZ
+CODE_SMELL
+}squid:S1192ı"LDefine a constant instead of duplicating this literal "Henry James" 6 times.(ŒËÛÛH¯RCRITICALZ
+CODE_SMELL
+ˆsquid:S1192Ì"RDefine a constant instead of duplicating this literal "Bret Easton Ellis" 3 times.(Ÿ†ÌæûÿÿÿÿH±RCRITICALZ
+CODE_SMELL
+|squid:S11928"LDefine a constant instead of duplicating this literal "Jane Austen" 6 times.(ûÏ’¦HÀRCRITICALZ
+CODE_SMELL
+†squid:S1192¼"PDefine a constant instead of duplicating this literal "John Le Carrï¿½" 3 times.(ÉÊªıÿÿÿÿH–RCRITICALZ
+CODE_SMELL
+ˆsquid:S1192Ä"WDefine a constant instead of duplicating this literal "Tobias George Smollett" 3 times.(™Â³H RCRITICALZ
+CODE_SMELL
+ˆsquid:S1192†"RDefine a constant instead of duplicating this literal "Elizabeth Gaskell" 3 times.(¦‘Ä“ÿÿÿÿÿHÉRCRITICALZ
+CODE_SMELL
+‡squid:S1192•"QDefine a constant instead of duplicating this literal "Charles Dickens" 10 times.(›ĞÏıÿÿÿÿHÖRCRITICALZ
+CODE_SMELL
+~squid:S1192Ç"MDefine a constant instead of duplicating this literal "George Eliot" 5 times.(÷µ¯²H›RCRITICALZ
+CODE_SMELL
+~squid:S1192Ü"NDefine a constant instead of duplicating this literal "J.M. Coetzee" 10 times.(ÚÊšKHÚRCRITICALZ
+CODE_SMELL
+}squid:S1192F"MDefine a constant instead of duplicating this literal "J.G. Ballard" 7 times.(ô¯û£H½RCRITICALZ
+CODE_SMELL
+†squid:S1192€"PDefine a constant instead of duplicating this literal "Thomas Bernhard" 6 times.(‚‚Ä÷ùÿÿÿÿHÿRCRITICALZ
+CODE_SMELL
+Vsquid:S1604Ä"(Make this anonymous inner class a lambda(ïÁŞºHƒRMAJORZ
+CODE_SMELL
+squid:S1192ı"KDefine a constant instead of duplicating this literal "Ian McEwan" 8 times.(çÀŸãşÿÿÿÿHÁRCRITICALZ
+CODE_SMELL
+„squid:S1192Ó"NDefine a constant instead of duplicating this literal "Wyndham Lewis" 5 times.(ÈÿÜËùÿÿÿÿHÜRCRITICALZ
+CODE_SMELL
+€squid:S1192à"ODefine a constant instead of duplicating this literal "Henry Fielding" 3 times.(¿å¶H¢RCRITICALZ
+CODE_SMELL
+ƒsquid:S1192Í"MDefine a constant instead of duplicating this literal "Muriel Spark" 4 times.(Óâ¬ãşÿÿÿÿH®RCRITICALZ
+CODE_SMELL
+ƒsquid:S1192´"MDefine a constant instead of duplicating this literal "Evelyn Waugh" 4 times.(à¸¼½ÿÿÿÿÿH‘RCRITICALZ
+CODE_SMELL
+€squid:S1192Ç"ODefine a constant instead of duplicating this literal "Elmore Leonard" 3 times.(½õ¯²H—RCRITICALZ
+CODE_SMELL
+}squid:S1192’"LDefine a constant instead of duplicating this literal "Franz Kafka" 3 times.(’Õ±‡HŞRCRITICALZ
+CODE_SMELL
+{squid:S1192ş"JDefine a constant instead of duplicating this literal "Jean Rhys" 3 times.(÷€ò¨HæRCRITICALZ
+CODE_SMELL
+„squid:S1192²"NDefine a constant instead of duplicating this literal "Italo Calvino" 5 times.(Ô½øÛøÿÿÿÿHÃRCRITICALZ
+CODE_SMELL
+squid:S1192¤"PDefine a constant instead of duplicating this literal "Haruki Murakami" 4 times.(ŸßšÇH„RCRITICALZ
+CODE_SMELL
+squid:S1192v"LDefine a constant instead of duplicating this literal "Saul Bellow" 7 times.(”ˆß´üÿÿÿÿHšRCRITICALZ
+CODE_SMELL
+„squid:S1192’"NDefine a constant instead of duplicating this literal "Ivan Turgenev" 5 times.(áû¶ıÿÿÿÿH¶RCRITICALZ
+CODE_SMELL
+‰squid:S1192ø"SDefine a constant instead of duplicating this literal "Honorï¿½ de Balzac" 3 times.(µÆª–ıÿÿÿÿHÒRCRITICALZ
+CODE_SMELL
+~squid:S1192·"MDefine a constant instead of duplicating this literal "Albert Camus" 3 times.(ÚâÀªHİRCRITICALZ
+CODE_SMELL
+†squid:S1192‡"PDefine a constant instead of duplicating this literal "Heinrich Bï¿½ll" 4 times.(šæŠõøÿÿÿÿH¡RCRITICALZ
+CODE_SMELL
+ƒsquid:S1192‚"RDefine a constant instead of duplicating this literal "Guy de Maupassant" 3 times.(’æ¶¶HÍRCRITICALZ
+CODE_SMELL
+„squid:S1192é"NDefine a constant instead of duplicating this literal "Joseph Conrad" 5 times.(õİüÍÿÿÿÿÿHşRCRITICALZ
+CODE_SMELL
+‚squid:S1192§"LDefine a constant instead of duplicating this literal "Henry Green" 6 times.(ÜÍŞ¿øÿÿÿÿH˜RCRITICALZ
+CODE_SMELL
+…squid:S1192Ë"TDefine a constant instead of duplicating this literal "Nathaniel Hawthorne" 4 times.(ÌùĞ‹HËRCRITICALZ
+CODE_SMELL
+‚squid:S1192æ"LDefine a constant instead of duplicating this literal "Thomas Mann" 4 times.(ğ…Ñ«ÿÿÿÿÿHâRCRITICALZ
+CODE_SMELL
+…squid:S1192Å"TDefine a constant instead of duplicating this literal "Flannery Oï¿½Connor" 3 times.(ÛÎòÖH‡RCRITICALZ
+CODE_SMELL
+‡squid:S1192Ú"QDefine a constant instead of duplicating this literal "William Faulkner" 4 times.(¿ÀöûÿÿÿÿHÕRCRITICALZ
+CODE_SMELL
+squid:S1192¤"NDefine a constant instead of duplicating this literal "Kurt Vonnegut" 4 times.(ŠäáH°RCRITICALZ
+CODE_SMELL
+~squid:S1192¼"NDefine a constant instead of duplicating this literal "Iain Sinclair" 3 times.(èùıHÎRCRITICALZ
+CODE_SMELL
+ƒsquid:S1192ï"MDefine a constant instead of duplicating this literal "E.M. Forster" 4 times.(ÅÕ½½ÿÿÿÿÿH»RCRITICALZ
+CODE_SMELL
+squid:S1192™"PDefine a constant instead of duplicating this literal "Alberto Moravia" 3 times.(şÊ÷HÔRCRITICALZ
+CODE_SMELL
+ƒsquid:S1192¿"MDefine a constant instead of duplicating this literal "Peter Handke" 3 times.(ëü´ üÿÿÿÿHäRCRITICALZ
+CODE_SMELL
+‚squid:S1192‹"LDefine a constant instead of duplicating this literal "Philip Roth" 7 times.(§ãƒ“ùÿÿÿÿHØRCRITICALZ
+CODE_SMELL
+Œsquid:S2293¼"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÓÑ®˜ûÿÿÿÿH€RMINORZ
+CODE_SMELL
+‚squid:S1192Ë"QDefine a constant instead of duplicating this literal "Raymond Chandler" 3 times.(’¤¾¬HÈRCRITICALZ
+CODE_SMELL
+squid:S1192­"ODefine a constant instead of duplicating this literal "Hanif Kureishi" 3 times.(¸ÇÄH…RCRITICALZ
+CODE_SMELL
+‡squid:S1192”"VDefine a constant instead of duplicating this literal "Jean-Jacques Rousseau" 4 times.(Óæ²HRCRITICALZ
+CODE_SMELL
+ƒsquid:S1192ˆ"MDefine a constant instead of duplicating this literal "Daniel Defoe" 3 times.(™ö©şÿÿÿÿH‹RCRITICALZ
+CODE_SMELL
+€squid:S1192`"KDefine a constant instead of duplicating this literal "John Barth" 3 times.(îÔŞâÿÿÿÿÿH¼RCRITICALZ
+CODE_SMELL
+~squid:S1192Û"MDefine a constant instead of duplicating this literal "Herman Hesse" 4 times.(ùïËıHìRCRITICALZ
+CODE_SMELL
+}squid:S1192«"LDefine a constant instead of duplicating this literal "W.G. Sebald" 4 times.(ü‹Ö¸H¾RCRITICALZ
+CODE_SMELL
+~squid:S1192¦"MDefine a constant instead of duplicating this literal "Fanny Burney" 3 times.(¡°ÒóHÙRCRITICALZ
+CODE_SMELL
+‡squid:S1192¨"QDefine a constant instead of duplicating this literal "Sir Walter Scott" 3 times.(¬úÎØşÿÿÿÿHÄRCRITICALZ
+CODE_SMELL
+ƒsquid:S1192Â"MDefine a constant instead of duplicating this literal "Thomas Hardy" 7 times.(Û•‚îùÿÿÿÿHĞRCRITICALZ
+CODE_SMELL
+|squid:S1192Ï"KDefine a constant instead of duplicating this literal "Primo Levi" 3 times.(ÄÁåHíRCRITICALZ
+CODE_SMELL
+ƒsquid:S1192©"RDefine a constant instead of duplicating this literal "William Burroughs" 4 times.(ÊÇÔÂHùRCRITICALZ
+CODE_SMELL
+squid:S1192Š"ODefine a constant instead of duplicating this literal "William Trevor" 3 times.(Ú¿^H²RCRITICALZ
+CODE_SMELL
+~squid:S1192"NDefine a constant instead of duplicating this literal "Douglas Adams" 3 times.(¯°”ğHëRCRITICALZ
+CODE_SMELL
+|squid:S1192>"LDefine a constant instead of duplicating this literal "Paul Auster" 6 times.(«™ŒÛHRCRITICALZ
+CODE_SMELL
+squid:S1192á"NDefine a constant instead of duplicating this literal "Georges Perec" 5 times.(œòñÔHÌRCRITICALZ
+CODE_SMELL
+~squid:S1192S"NDefine a constant instead of duplicating this literal "John Banville" 5 times.(é”õ„H¤RCRITICALZ
+CODE_SMELL
+…squid:S1192½"ODefine a constant instead of duplicating this literal "Edna Oï¿½Brien" 4 times.(ã»†ÛøÿÿÿÿHÆRCRITICALZ
+CODE_SMELL
+„squid:S1192´"NDefine a constant instead of duplicating this literal "D.H. Lawrence" 7 times.(µí´€ÿÿÿÿÿH«RCRITICALZ
+CODE_SMELL
+Œsquid:S2293ö"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÓÑ®˜ûÿÿÿÿHıRMINORZ
+CODE_SMELL
+dsquid:S1135´"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH‚RINFOZ
+CODE_SMELL
+~squid:S1192""NDefine a constant instead of duplicating this literal "Kingsley Amis" 3 times.(…€Ø³HÅRCRITICALZ
+CODE_SMELL
+Tsquid:S2175¡"(A "List<Book>" cannot contain a "String"(âàï¯ÿÿÿÿÿHûRMAJORZBUG
+‚squid:S1192‹"LDefine a constant instead of duplicating this literal "Don DeLillo" 7 times.(ªÌ‰ĞûÿÿÿÿH¿RCRITICALZ
+CODE_SMELL
+~squid:S1192‡"MDefine a constant instead of duplicating this literal "B.S. Johnson" 3 times.(Éù¡¼HéRCRITICALZ
+CODE_SMELL
+squid:S1192Ì"NDefine a constant instead of duplicating this literal "George Orwell" 5 times.(ŠŸÅÊHÂRCRITICALZ
+CODE_SMELL
+ƒsquid:S1192æ"MDefine a constant instead of duplicating this literal "John Wyndham" 3 times.(¬À›şÿÿÿÿHòRCRITICALZ
+CODE_SMELL
+‡squid:S1192¹"QDefine a constant instead of duplicating this literal "Dashiell Hammett" 4 times.(ûò“ûÿÿÿÿH¨RCRITICALZ
+CODE_SMELL
+squid:S1192g"QDefine a constant instead of duplicating this literal "Georges Bataille" 3 times.(ıóñHáRCRITICALZ
+CODE_SMELL
+†squid:S1192Â"PDefine a constant instead of duplicating this literal "Flann Oï¿½Brien" 3 times.(Ãƒ–ÔøÿÿÿÿHãRCRITICALZ
+CODE_SMELL
+„squid:S1192ë"NDefine a constant instead of duplicating this literal "9780688075095" 3 times.(²¢˜£ûÿÿÿÿHRCRITICALZ
+CODE_SMELL
+‡squid:S1192"QDefine a constant instead of duplicating this literal "Anthony Trollope" 4 times.(ö†Ş®øÿÿÿÿHïRCRITICALZ
+CODE_SMELL
+„squid:S1192§"NDefine a constant instead of duplicating this literal "9780140186918" 3 times.(ÜÍŞ¿øÿÿÿÿHRCRITICALZ
+CODE_SMELL
+~squid:S1192´"MDefine a constant instead of duplicating this literal "V.S. Naipaul" 3 times.(ª™×ÛHRCRITICALZ
+CODE_SMELL
+‰squid:S1192Ò"SDefine a constant instead of duplicating this literal "Jeanette Winterson" 4 times.(º”çúÿÿÿÿH×RCRITICALZ
+CODE_SMELL
+…squid:S1192Ä"ODefine a constant instead of duplicating this literal "9780307268259 " 3 times.(éö½êüÿÿÿÿHÓRCRITICALZ
+CODE_SMELL
+‡squid:S1192å"QDefine a constant instead of duplicating this literal "Gustave Flaubert" 4 times.(ÓÅŸîıÿÿÿÿHœRCRITICALZ
+CODE_SMELL
+€squid:S1192Ñ"ODefine a constant instead of duplicating this literal "Gertrude Stein" 3 times.(ÇˆÛ‚H•RCRITICALZ
+CODE_SMELL
+‡squid:S1192°"QDefine a constant instead of duplicating this literal "Vladimir Nabokov" 4 times.(«´³€ùÿÿÿÿH†RCRITICALZ
+CODE_SMELL
+€squid:S1192ø"ODefine a constant instead of duplicating this literal "Kazuo Ishiguro" 5 times.(¢››ÑH·RCRITICALZ
+CODE_SMELL
+ƒsquid:S1192¨"MDefine a constant instead of duplicating this literal "Iris Murdoch" 6 times.(ÆÄ°‘ÿÿÿÿÿHèRCRITICALZ
+CODE_SMELL
+„squid:S1192j"ODefine a constant instead of duplicating this literal "Samuel Beckett" 8 times.(·‘öÆüÿÿÿÿH§RCRITICALZ
+CODE_SMELL
+…squid:S1192ó"ODefine a constant instead of duplicating this literal "Thomas Pynchon" 5 times.(œ¦•ëùÿÿÿÿHŠRCRITICALZ
+CODE_SMELL
+€squid:S1192Ü"ODefine a constant instead of duplicating this literal "Virginia Woolf" 9 times.(‰İˆ˜HÊRCRITICALZ
+CODE_SMELL
+ˆsquid:S1192Ç"WDefine a constant instead of duplicating this literal "Aleksandr Solzhenitsyn" 3 times.(Ë”†ÄH‚RCRITICALZ
+CODE_SMELL
+„squid:S1192Ë"NDefine a constant instead of duplicating this literal "Doris Lessing" 4 times.(©¦ĞÛüÿÿÿÿH©RCRITICALZ
+CODE_SMELL
+~squid:S1192­"NDefine a constant instead of duplicating this literal "Graham Greene" 8 times.(´«–3HçRCRITICALZ
+CODE_SMELL
+Œsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÓÑ®˜ûÿÿÿÿHÿRMINORZ
+CODE_SMELL
+squid:S1192 "PDefine a constant instead of duplicating this literal "Josï¿½ Saramago" 3 times.(ú£¾ªH£RCRITICALZ
+CODE_SMELL
+‚squid:S1192˜"LDefine a constant instead of duplicating this literal "John Updike" 3 times.(ÙÒıüÿÿÿÿHŒRCRITICALZ
+CODE_SMELL
+squid:S1192Ä"PDefine a constant instead of duplicating this literal "Maria Edgeworth" 3 times.(ù°ÎğH¥RCRITICALZ
+CODE_SMELL
+„squid:S1192›"SDefine a constant instead of duplicating this literal "Charlotte Brontï¿½" 3 times.(üÆùHúRCRITICALZ
+CODE_SMELL
+ˆsquid:S1192¿"RDefine a constant instead of duplicating this literal "Joyce Carol Oates" 4 times.(´Ş…µûÿÿÿÿHøRCRITICALZ
+CODE_SMELL
+„squid:S1192î"NDefine a constant instead of duplicating this literal "Aldous Huxley" 4 times.(ÌËçÔøÿÿÿÿH¸RCRITICALZ
+CODE_SMELL
+~squid:S1192ë"MDefine a constant instead of duplicating this literal "ï¿½mile Zola" 5 times.(ºµ†ŞHºRCRITICALZ
+CODE_SMELL
+squid:S1192©"NDefine a constant instead of duplicating this literal "Milan Kundera" 4 times.(¢õëHàRCRITICALZ
+CODE_SMELL
+squid:S1192¥"NDefine a constant instead of duplicating this literal "E.L. Doctorow" 4 times.(Çâ¦àHÛRCRITICALZ
+CODE_SMELL
+„squid:S1192Æ"NDefine a constant instead of duplicating this literal "Angela Carter" 3 times.(²ãûÁûÿÿÿÿHµRCRITICALZ
+CODE_SMELL
+Œsquid:S2293ƒ"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÕŸªÅûÿÿÿÿHşRMINORZ
+CODE_SMELL
+€squid:S1192"PDefine a constant instead of duplicating this literal "Elizabeth Bowen" 6 times.(‘“°H€RCRITICALZ
+CODE_SMELL
+„squid:S1192Ä"NDefine a constant instead of duplicating this literal "Edith Wharton" 6 times.(éö½êüÿÿÿÿH³RCRITICALZ
+CODE_SMELL
+ƒsquid:S1192–"MDefine a constant instead of duplicating this literal "James Kelman" 3 times.(ü›­­øÿÿÿÿHˆRCRITICALZ
+CODE_SMELL
+€squid:S11922"PDefine a constant instead of duplicating this literal "Margaret Atwood" 6 times.(±ãÎÆH¹RCRITICALZ
+CODE_SMELL
+|squid:S1192¹"KDefine a constant instead of duplicating this literal "H.G. Wells" 5 times.(ç¸›‹HÏRCRITICALZ
+CODE_SMELL
+„squid:S1192ß"NDefine a constant instead of duplicating this literal "9781840220582" 6 times.(½‡ÆÇùÿÿÿÿH“RCRITICALZ
+CODE_SMELL
+€squid:S1192Î"ODefine a constant instead of duplicating this literal "9781400042067 " 3 times.(óêHôRCRITICALZ
+CODE_SMELL
+„squid:S1192"NDefine a constant instead of duplicating this literal "Toni Morrison" 5 times.(«­³†ûÿÿÿÿH÷RCRITICALZ
+CODE_SMELL
+ƒsquid:S1192×"MDefine a constant instead of duplicating this literal "J.G. Farrell" 3 times.(©Ô–³úÿÿÿÿH‰RCRITICALZ
+CODE_SMELL
+|squid:S1192#"LDefine a constant instead of duplicating this literal "Martin Amis" 5 times.(ıš“’HöRCRITICALZ
+CODE_SMELL
+}squid:S1192ó"LDefine a constant instead of duplicating this literal "John Irving" 3 times.(Ô¥Û¢HƒRCRITICALZ
+CODE_SMELL
+Šsquid:S1192÷"TDefine a constant instead of duplicating this literal "W. Somerset Maugham" 3 times.(©Û†ÏúÿÿÿÿHÑRCRITICALZ
+CODE_SMELL
+…squid:S1192Ô"ODefine a constant instead of duplicating this literal "John Steinbeck" 3 times.(£µ‰ÒúÿÿÿÿHóRCRITICALZ
+CODE_SMELL
+{squid:S1192["KDefine a constant instead of duplicating this literal "Pat Barker" 3 times.(õÊ€üHıRCRITICALZ
+CODE_SMELL
+ƒsquid:S1192­"RDefine a constant instead of duplicating this literal "Fyodor Dostoevsky" 5 times.(ÄÇ¨ÿH”RCRITICALZ
+CODE_SMELL
+squid:S1192Ÿ"NDefine a constant instead of duplicating this literal "Denis Diderot" 3 times.(âÄòH’RCRITICALZ
+CODE_SMELL
+‚squid:S1192½"QDefine a constant instead of duplicating this literal "Marguerite Duras" 3 times.(ú¼ë«HRCRITICALZ
+CODE_SMELL
+‘squid:S1192“"[Define a constant instead of duplicating this literal "Johann Wolfgang von Goethe" 3 times.(®Ğ˜ùùÿÿÿÿHŸRCRITICALZ
+CODE_SMELL
+‚squid:S1192ş"LDefine a constant instead of duplicating this literal "Leo Tolstoy" 4 times.(»à©ŠüÿÿÿÿH™RCRITICALZ
+CODE_SMELL
+squid:S1192¹"PDefine a constant instead of duplicating this literal "Alexandre Dumas" 3 times.(µË”HªRCRITICALZ
+CODE_SMELL
+~squid:S1192¿"MDefine a constant instead of duplicating this literal "Rebecca West" 4 times.(äÜÜH¬RCRITICALZ
+CODE_SMELL
+}squid:S1192ó"LDefine a constant instead of duplicating this literal "John Fowles" 4 times.(õ®©ÊHîRCRITICALZ
+CODE_SMELL
+f
+squid:S106»"9Replace this use of System.out or System.err by a logger.(ûçØËHRMAJORZ
+CODE_SMELL
+‡squid:S1192Ó"QDefine a constant instead of duplicating this literal "Ernest Hemingway" 5 times.(ÑëãùÿÿÿÿH´RCRITICALZ
+CODE_SMELL
+ˆsquid:S1192â"RDefine a constant instead of duplicating this literal "August Strindberg" 3 times.(Ó“øÀÿÿÿÿÿHêRCRITICALZ
+CODE_SMELL
+Œsquid:S1192€"[Define a constant instead of duplicating this literal "Gabriel Garcï¿½a Mï¿½rquez" 3 times.(üß¢™HßRCRITICALZ
+CODE_SMELL
+…squid:S1192è"ODefine a constant instead of duplicating this literal "Jonathan Swift" 3 times.(ÃÁ°˜ûÿÿÿÿHÇRCRITICALZ
+CODE_SMELL
+†squid:S1192ë"PDefine a constant instead of duplicating this literal "Edgar Allan Poe" 3 times.(²¢˜£ûÿÿÿÿHñRCRITICALZ
+CODE_SMELL

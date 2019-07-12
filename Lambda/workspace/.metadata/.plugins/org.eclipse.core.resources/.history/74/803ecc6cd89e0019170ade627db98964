@@ -1,0 +1,11 @@
+package examManager;
+
+public class ForEachPerformanceTest {
+
+	public static void main(String[] args) {
+		
+		List<Double> sampleList = new ArrayList<>();
+		
+	}
+
+}

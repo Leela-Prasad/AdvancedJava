@@ -1,0 +1,16 @@
+package EvenNumbers;
+
+public class Generator {
+
+	public static void main(String[] args) {
+		
+		EvenNumberHolder holder = new EvenNumberHolder();
+		EvenTask task = new EvenTask(holder);
+		//for(int i=0;i<500; ++i) {
+		while(true) {
+			Thread t = new Thread(task);
+			t.start();
+		}
+	}
+
+}

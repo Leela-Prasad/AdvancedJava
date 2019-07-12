@@ -1,0 +1,12 @@
+
+Nsquid:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿHGRBLOCKERZBUG
+bsquid:S1135"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHHRINFOZ
+CODE_SMELL
+Fsquid:S1220""Move this file to a named package.HIRMINORZ
+CODE_SMELL
+Usquid:S2140")Use "java.util.Random.nextInt()" instead.(‰¤±¿HJRMINORZ
+CODE_SMELL
+ksquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€HKRMAJORZBUG
+isquid:UselessImportCheck"+Remove this unused import 'java.util.UUID'.(ÀãÄ£úÿÿÿÿHLRMINORZ
+CODE_SMELL
+Wsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHMRMINORZVULNERABILITY

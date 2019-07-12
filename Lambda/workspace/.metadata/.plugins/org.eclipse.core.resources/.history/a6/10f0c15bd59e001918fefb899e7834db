@@ -1,0 +1,20 @@
+import java.util.List;
+
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		BookCollection bc = new BookCollection();
+		//List<Book> foundBooks = bc.findBooks(book -> book.getTitle().toLowerCase().contains("men"));
+		List<Book> foundBooks = bc.findBooksV2(book -> book.getTitle().toLowerCase().contains("men"));
+		
+		for (Book nextBook : foundBooks) {
+			System.out.println (nextBook.getTitle() + " by " + nextBook.getAuthor());
+		}
+		
+		System.out.println("---");
+		Map<Integer,String> bookMap = bc.findBookTitles(book -> book.getTitle().toLowerCase().contains("men"));
+		bookMap.forEach((k,v) -> System.out.println("k : " + k + " v : " + v));
+	}
+}

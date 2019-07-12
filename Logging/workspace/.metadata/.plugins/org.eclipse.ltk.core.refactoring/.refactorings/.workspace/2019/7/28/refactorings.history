@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;CRM System&apos; to &apos;CRM_System&apos;&#x0A;- Original element: &apos;CRM System&apos;&#x0A;- Renamed element: &apos;CRM System&apos;&#x0A;- Update references to refactored element" description="Rename Java project &apos;CRM System&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=CRM System" name="CRM_System" references="true" stamp="1562642334402" version="1.0"/>
+</session>

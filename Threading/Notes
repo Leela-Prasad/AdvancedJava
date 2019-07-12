@@ -1,0 +1,135 @@
+Thread - A single flow of code within an application.
+Process - A running application.
+
+Each Process has its own memory.
+one process can’t use memory of other process 
+Threads within a process share that process memory.
+
+Process is a heavy weight task compared to a Thread.
+A computer cannot run all threads at the same time, it can process one thread at a time.
+
+
+Premetive Multi scheduler will decide which thread to run.
+Process will manage this scheduling.
+
+
+Modern Collections are Not Thread safe because we will have performance degredation for  single threaded applications
+
+means if there is 
+a method to add elements into collection
+a method to get size of the collection
+a method to iterate over collection
+
+Then if you don’t write synchronise blocks we will get a collection which is corrupted.
+Collections.add is not thread safe i.e., processor will execute only some lines of code in add method and it may inter leave and give the processing power to other thread which leads to collection corruption.
+
+collection.size method will not give you correct result because in the middle of size method another thread may add an element to a collection.
+
+So if we add synchronize block then size method will be blocked until element is added or 
+add method will be blocked until size method is completed.
+
+when we iterate a collection and an element is added during the iteration i.e., if the collection size is changed then we will get concurrent modification exception.
+so we have synchronize this block also.
+
+
+For List only we have a special class which is THREAD SAFE.
+CopyOnWriteArrayList
+this class will create a new array list by copying the contents when there is a modification to the collection.
+
+so above 3 scenarios we can avoid synchronise blocks by using CopyOnWriteArrayList
+
+For Other types we have to use below methods.
+Collections.synchronizedList
+Collections.synchronizedMap
+Collections.synchronizedSet
+
+*** These synchronised class types will have synchronized keyword on every method.
+
+
+Servlet object will be created only once so we should ensure servlet is thread safe.
+
+Controller objects are created only once by spring framework, so we need to understand that the service objects which are used are thread safe.
+
+
+DeadLock:
+Dead lock will occur when one thread obtained a lock on an object and is not releasing that lock, other threads cannot executes method which needs the same lock.
+
+To avoid this Deadlock we can use 
+wait and notifyAll
+
+if the thread is obtaining a lock for a long time then it can go into wait state for some time, so that other threads which are waiting for the same lock can get a chance to execute.
+wait()
+
+
+Once other threads execute it can notify threads which are wait state.
+notify will make the threads to change state from wait state to running state, if it gets cpu time to execute.
+
+Notify is not harmful as it wake up the thread and ask them to try to execute.
+
+notify will only wake up one random thread
+notifyAll will wake up all threads waiting for the same thread.
+
+Since there is no harm it is recommended to use notifyAll
+
+
+Thread Interruption:
+To terminate a thread which is running before it finishes its normal process we use Thread interruption.
+
+We have a thread that is long running and we might terminate that when user press cancel button.
+We should terminate the thread in a safe way i.e., we should release resources and synchronization locks. For this we will use interruption so that the thread responds to the interruption by closing all the resources and releasing synchronization locks that it has.
+
+Thread.interrupt() - will interrupt the thread.
+Thread.interrupted() - will return true/false whether the thread is interrupted or not.
+
+Calling Thread.interrupt() will set a flag stating that the thread is interrupted.
+
+
+*** If a Thread interruption occurs in a NESTED CALL then we should inform about this Thread interruption to the caller method also because
+Thread interruption flag is cleared when 
+Thread.interrupted() method is evaluated to true
+(or)
+when InterruptedException is handled 
+
+*** so it is our responsibility to let caller to know about this interruption by setting the interruption flag using the below code.
+Thread.currentThread().interrupt();
+
+
+This is the reason why wait, sleep methods throw an interrupted exception stating that interruption occurs and leave the developer to ignore or handle that exception by cleaning up resources.
+
+notify will throw interruptedException as it cannot join interrupted thread.
+
+
+Thread Pools
+If you are creating many SHORT lived threads then creation of thread will have performance impact, in this case we can use thread pools.
+
+Thread Pools types
+1. Fixed Thread Pool - this will create fixed number of threads before executing the threads.
+2. CachedThreadPool - It will create Threads on demand. when a thread is completed and returned to the pool it will keep this thread upto 60 seconds and after that it will destroy the thread.
+3.SingleThreadExecutor - This is similar to creating one thread in FixedThreadPool
+
+
+ExecutorService pool = Executors.newFixedThreadPool(30);
+
+There are 2 methods which are used to shutdown ExecutorService
+pool.shutdown();
+pool.shutdownNow();
+
+shutdown will close the pool gracefully i.e., it will allow any threads to complete before it closes.
+shutdownNow will stop all the threads immediately.
+
+
+Problem with synchronised block is we can acquire lock and release lock in ONLY SYNCHRONIZED BLOCK.
+
+Reentrant lock can be used to acquire lock in one method and release lock in another method.
+private Lock lock = new ReentrantLock();
+lock.lock();
+lock.unlock();
+
+In our example we have 
+wait and notifyAll in add customers method
+and wait notifyAll in remove customers method
+
+if we invoke notifyAll in add customers method then it will wake all threads means 
+add customers method threads and remove customers method threads, this is slightly inefficient.
+
+and wait() and notifyAll() are not clear for which method they are notifying, no readability.

@@ -1,0 +1,196 @@
+Lambda Expressions are anonymous code block which can be passed to a method as a parameter, and then execute with in that method. Here we are passing processing task where the data resides.
+
+Before Java 8 we cannot pass any code block as a parameter to a method.
+
+An anonymous code block is a lambda expression when it implements a functional interface.
+
+A functional interface should contain only one abstract method.
+
+*** This Lambda Expression will avoid of creating classes around the code blocks.
+
+In Groovy these Lambdas are called as Closures.
+
+Lambda Expression:
+
+parameters -> body
+
+Parameters:
+(String s, Integer i) -> body
+(s,i) -> body // Here we don’t need to mention datatypes as it is inferred from functional interface.
+myString -> body //If we have a single parameter then () are not needed.
+() -> body // when there are no parameters.
+
+
+Arrow:
+Here Arrow separates Parameters from body(i.e., code block).
+(s,i) -> {
+ …
+}
+
+Body:
+
+(s,i) -> {
+ System.out.println(“Hello ” + s);
+ System.out.println(“You are number “ + i);
+}
+
+
+If there is a single line in the body then return statement is not needed.
+
+someInteger -> {
+  someInteger + 7;
+}
+
+If there is only one line in the body then {} are not needed.
+
+someInteger -> someInteger + 7;
+
+someInteger -> System.out.println(someInteger);
+
+
+Predefined Functional Interfaces:
+These Predefined Functional Interfaces are classified into 4 types.
+1. Consumer
+2. Supplier
+3. Function
+4. Predicate
+
+
+1. Consumer 
+   Takes a single argument and doesn’t produce result.
+   Default method is accept()
+   
+Consumer<T>
+
+Consumer<String>
+public void someMethod(String s)
+
+BiConsumer<T,U>
+
+BiConsumer<String, Integer>
+public void someMethod(String s, Integer i)   
+
+2. Supplier 
+No argument and produces result.
+Default method is get()
+
+Supplier<T>
+
+Supplier<String>
+public String someMethod()
+
+3. Function 
+Takes a single argument and produces result.
+Default method is apply()
+
+Function<T,R>
+
+Function<Integer,String>
+public String someMethod(Integer i)
+
+
+BiFunction<T,U,R>
+
+BiFunction<String, Boolean, Integer>
+public Integer someMethod(String s, Boolean b)
+
+4. Predicate 
+Takes a single argument and produces Boolean result.
+Default method is test()
+
+Predicate<T>
+
+Predicate<String>
+public Boolean someMethod(String s)
+
+BiPredicate<T,U>
+
+BiPredicate<String,Integer>
+public Boolean someMethod(String s, Integer i)
+
+
+*** All Iterable types now have a new function forEach() which will accept a consumer functional interface type.
+
+*** In a lambda we cannot change variables defined in the enclosing scope i.e., we cannot change variables which are outside of code block.
+
+Double total=0d;
+myScores.forEach(score -> {
+  total+= score;   // not possible.
+})
+return total;
+
+*** Here we cannot change total and score variable inside lambda expression and forEach function is taking consumer as the parameter it cannot return any value.
+so to change the values we need a special object called streams.
+
+Streams:
+A stream is a sequence of objects which can be manipulated through operations.
+Streams are of 2 types.
+1. sequential stream
+2. parallel stream
+in sequential stream the objects will come in a sequence.
+in parallel streams we will get objects from different threads.
+
+reduce:
+Reduce function is used to reduce all the stream objects to a single value.
+reduce(Double identity, BinaryOperator<Double> accumulator);
+
+Here identity is the initial value.
+BinaryOperator is a functional interface of special BiFunction<T,T,T>
+Here BiFunction will take input and output of SAME type, whereas normal function can produce output in different type.
+
+Calculating total of myStreams collection.
+myScores.stream().reduce(0d, (a,b) -> a+b)
+
+filter:
+filter method is used to filter out some of the elements in the stream.
+myScores.stream().filter(testCriteria).forEach(s-> System.out.println(s));
+
+map:
+map method is used to modify elements in the stream
+map(Function<Double, ?> mapper)
+
+e.g.: double each element in the stream by 2
+map will accept Function 
+myScores.stream().map((d) -> d*2).forEach(s-> System.out.println(s));
+
+collect:
+collect method is used to convert a stream to collection.
+collect(Collector<Double,?> collector)
+
+myStream.collect(Collectors.toList());
+
+toMap(Function<Book,?> keyMapper, Function<Book,?> valueMapper);
+myStream.collect(Collectors.toMap(b -> b.getId(), b -> b));
+
+Method References:
+If we have any existing method which will be a one of the following
+consumer
+supplier
+predicate
+function 
+then that can be written with Method reference.
+
+e.g.: 
+public boolean isItLowerThan50(Double d) {
+  return (d<50);
+}
+
+Above method is a predicate so this can be written with method reference
+examManager.printSelectedScores(examManager::isItLowerThan50);
+instead of
+examManager.printSelectedScores(d -> d<50);
+
+
+s -> System.out.println(s);
+
+Here println is a consumer so we can write as 
+System.out::println
+
+We are referencing these methods with object references as there are not static methods
+If we have static method then we can reference with class name.
+
+public static boolean isItLowerThan50(Double d) {
+  return (d<50);
+}
+
+examManager.printSelectedScores(ExamManager::isItLowerThan50);

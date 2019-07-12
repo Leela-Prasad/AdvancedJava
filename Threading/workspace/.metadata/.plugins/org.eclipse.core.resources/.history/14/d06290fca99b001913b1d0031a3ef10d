@@ -1,0 +1,13 @@
+package EvenNumbers;
+
+public class EvenNumberHolder {
+
+	private int currentEven=0;
+	
+	public int getNextEven() {
+		++currentEven;
+		++currentEven;
+		return currentEven;
+	}
+	
+}

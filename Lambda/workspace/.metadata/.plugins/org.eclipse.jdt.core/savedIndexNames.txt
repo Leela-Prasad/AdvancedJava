@@ -1,0 +1,20 @@
+INDEX VERSION 1.130+/Users/Leela/Desktop/Advanced Java/Lambda/workspace/.metadata/.plugins/org.eclipse.jdt.core
+786597162.index
+992871258.index
+1092222718.index
+1436502275.index
+3914914213.index
+4066768628.index
+389770878.index
+2365714727.index
+169179423.index
+1800733572.index
+3113260176.index
+1784103145.index
+4162738952.index
+762412249.index
+3951110374.index
+3885431046.index
+3548324500.index
+1271342938.index
+2207364636.index

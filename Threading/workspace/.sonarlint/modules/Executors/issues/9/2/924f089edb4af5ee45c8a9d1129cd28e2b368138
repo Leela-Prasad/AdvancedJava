@@ -1,0 +1,16 @@
+
+k
+squid:S106"9Replace this use of System.out or System.err by a logger.(†ÁâI8§»ÅŸ»-HµRMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(èëÑÆûÿÿÿÿHûRMAJORZ
+CODE_SMELL
+j
+squid:S106	"9Replace this use of System.out or System.err by a logger.(ÆùãèüÿÿÿÿHúRMAJORZ
+CODE_SMELL
+Gsquid:S1220""Move this file to a named package.HüRMINORZ
+CODE_SMELL
+osquid:S2259"BA "NullPointerException" could be thrown; "pool" is nullable here.(ðˆŸÙ8é¦àŸ»-H¸RMAJORZBUG
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(•¼í¤8Œ‡ÈŸ»-H¶RMAJORZ
+CODE_SMELL

@@ -1,0 +1,32 @@
+
+~squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(æ¡æ8®’ªØ»-HRMAJORZ
+CODE_SMELL
+p
+squid:S106!"9Replace this use of System.out or System.err by a logger.(”ôÙŸúÿÿÿÿ8ûŒÁï»-HGRMAJORZ
+CODE_SMELL
+p
+squid:S106%"9Replace this use of System.out or System.err by a logger.(”ôÙŸúÿÿÿÿ8ýü¬ñ»-HWRMAJORZ
+CODE_SMELL
+p
+squid:S106#"9Replace this use of System.out or System.err by a logger.(”ôÙŸúÿÿÿÿ8‚ö‰ñ»-HMRMAJORZ
+CODE_SMELL
+p
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÆÁÕ‡ýÿÿÿÿ8ÕÖ©Ø»-HRMAJORZ
+CODE_SMELL
+p
+squid:S106"9Replace this use of System.out or System.err by a logger.(Â™Þ þÿÿÿÿ8ÕÖ©Ø»-HRMAJORZ
+CODE_SMELL
+p
+squid:S106'"9Replace this use of System.out or System.err by a logger.(”ôÙŸúÿÿÿÿ8ÜÇ¿ñ»-HZRMAJORZ
+CODE_SMELL
+k
+squid:S106$"9Replace this use of System.out or System.err by a logger.(÷˜Â¨8çáŠñ»-HNRMAJORZ
+CODE_SMELL
+‡squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(üûÂ„HRMINORZ
+CODE_SMELL
+p
+squid:S106)"9Replace this use of System.out or System.err by a logger.(”ôÙŸúÿÿÿÿ8íÈÎñ»-H[RMAJORZ
+CODE_SMELL
+k
+squid:S106*"9Replace this use of System.out or System.err by a logger.(Éæ’Õ8íÈÎñ»-H\RMAJORZ
+CODE_SMELL

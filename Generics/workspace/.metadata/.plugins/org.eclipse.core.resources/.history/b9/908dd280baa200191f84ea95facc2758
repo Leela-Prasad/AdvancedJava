@@ -1,0 +1,10 @@
+
+public class StringWorker {
+
+	public String o1;
+	public String o2;
+	
+	public String toString() {
+		return "String Worker : " + o1.toString() + " : " + o2.toString();
+	}
+}
